@@ -34,7 +34,6 @@ func (db *MockDB) GetOne(tableName string, key, out interface{}) (err error) {
 func (db *MockDB) GetAll(tableName, out interface{}) (err error) {
 	var temp []string
 	for _, v := range Datas {
-		fmt.Println(string(v))
 		temp = append(temp, fmt.Sprintf("%s", string(v)))
 	}
 

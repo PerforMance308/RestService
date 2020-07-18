@@ -13,3 +13,8 @@ Endpoint 2 : ```http://localhost:8080/user/2``` returns a user with id=2 in JSON
 ```
 { "id": 2, "name":"Doe", "age":22, "city":"Vancouver" }
 ```
+
+## How to use
+```
+go run service/main.go
+```
