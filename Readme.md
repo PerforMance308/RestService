@@ -1,4 +1,4 @@
-# Test1:
+# Get Users:
 
 ## This service provides two endpoints. 
 
