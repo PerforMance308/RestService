@@ -15,6 +15,9 @@ Endpoint 2 : ```http://localhost:8080/user/2``` returns a user with id=2 in JSON
 ```
 
 ## How to use
+
+First start the service
 ```
 go run service/main.go
 ```
+Second typing url ```http://localhost:8080/users``` and ``` http://localhost:8080/user/2 ``` in a browser.
